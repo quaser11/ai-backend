@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "yzhang.markdown-all-in-one",
+    "esbenp.prettier-vscode",
+    "christian-kohler.path-intellisense",
+    "slevesque.vscode-tabout",
+    "wix.vscode-import-cost",
+    "prisma.prisma",
+    "mikestead.dotenv",
+    "github.copilot-chat",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

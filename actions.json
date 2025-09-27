@@ -1,0 +1,9 @@
+[
+    { "id": 1, "userId": 101, "projectId": 1, "action": "viewed_candidate", "targetUserId": 201 },
+    { "id": 2, "userId": 101, "projectId": 1, "action": "shortlisted_candidate", "targetUserId": 201 },
+    { "id": 3, "userId": 101, "projectId": 1, "action": "viewed_candidate", "targetUserId": 202 },
+    { "id": 4, "userId": 101, "projectId": 2, "action": "shortlisted_candidate", "targetUserId": 203 },
+    { "id": 5, "userId": 201, "projectId": 1, "action": "applied", "targetUserId": null },
+    { "id": 6, "userId": 202, "projectId": 2, "action": "viewed_project", "targetUserId": null },
+    { "id": 7, "userId": 204, "projectId": 1, "action": "saved_project", "targetUserId": null }
+  ]

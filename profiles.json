@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "userId": 101,
+      "role": "HR",
+      "company": "TechHire",
+      "position": "Talent Acquisition Manager",
+      "title": null,
+      "skills": [],
+      "experienceYears": null,
+      "summary": null,
+      "pastProjects": [],
+      "interests": []
+    },
+    {
+      "id": 2,
+      "userId": 201,
+      "role": "Candidate",
+      "company": null,
+      "position": null,
+      "title": "Backend Developer",
+      "skills": ["Node.js", "PostgreSQL", "Docker", "Express"],
+      "experienceYears": 3,
+      "summary": "Backend specialist, passionate about building APIs and optimizing databases.",
+      "pastProjects": ["Chatbot backend for SMB", "Payment service"],
+      "interests": ["AI", "Databases"]
+    },
+    {
+      "id": 3,
+      "userId": 202,
+      "role": "Candidate",
+      "company": null,
+      "position": null,
+      "title": "Frontend Developer",
+      "skills": ["React", "TypeScript", "Next.js", "Redux"],
+      "experienceYears": 4,
+      "summary": "Frontend engineer with focus on responsive UI and performance.",
+      "pastProjects": ["E-commerce storefront", "Analytics dashboard"],
+      "interests": ["UX/UI", "Web performance"]
+    },
+    {
+      "id": 4,
+      "userId": 203,
+      "role": "Candidate",
+      "company": null,
+      "position": null,
+      "title": "Fullstack Developer",
+      "skills": ["Node.js", "React", "MongoDB", "GraphQL"],
+      "experienceYears": 5,
+      "summary": "Fullstack developer, enjoys rapid prototyping and scalable web apps.",
+      "pastProjects": ["Realtime chat app", "Learning platform"],
+      "interests": ["Startups", "Agile"]
+    },
+    {
+      "id": 5,
+      "userId": 204,
+      "role": "Candidate",
+      "company": null,
+      "position": null,
+      "title": "Data Scientist",
+      "skills": ["Python", "TensorFlow", "Pandas", "NLP"],
+      "experienceYears": 2,
+      "summary": "Data scientist passionate about NLP and ML pipelines.",
+      "pastProjects": ["News recommender", "Text classification"],
+      "interests": ["Machine Learning", "AI research"]
+    }
+  ]

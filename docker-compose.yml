@@ -8,9 +8,7 @@ services:
             POSTGRES_USER: "postgres"
             POSTGRES_PASSWORD: "12345"
         ports:
-            - "5432:5432"
-        expose:
-            - "5432"
+            - "5354:5432"
         networks:
             - primary
         volumes:

@@ -1,0 +1,8 @@
+Entities 
+    User
+
+    Movies
+
+    UserActivity
+
+    

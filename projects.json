@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "AI Chatbot",
+      "description": "Customer support chatbot with NLP and AI-based intent recognition.",
+      "requiredSkills": ["Node.js", "PostgreSQL", "LangChain", "Docker"],
+      "preferredExperience": "Conversational AI frameworks",
+      "domain": "Artificial Intelligence",
+      "ownerId": 101
+    },
+    {
+      "id": 2,
+      "name": "E-commerce Platform",
+      "description": "Scalable backend with payments, product recommendations and analytics.",
+      "requiredSkills": ["React", "Node.js", "MongoDB", "Redis"],
+      "preferredExperience": "E-commerce domain",
+      "domain": "Retail",
+      "ownerId": 101
+    }
+  ]

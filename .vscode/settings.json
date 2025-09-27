@@ -1,5 +1,54 @@
 {
-    "cSpell.words": ["fastify", "lumitech"],
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-    "vs-code-prettier-eslint.prettierLast": false
+    // 🔤 Автоспеллинг — только нужные слова
+    "cSpell.words": [
+        "fastify",
+        "lumitech",
+        "telegramId",
+        "awilix",
+        "OpenAI"
+    ],
+    // 🔧 FORMATTER - ESLint setup
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    // 📝 INDENTATION
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    // 🚫 DISABLE PRETTIER
+    "prettier.enable": false,
+    // 📁 FILES
+    "files.eol": "\n",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    // 🎨 Интерфейс — фокус, чистота
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.lineNumbers": "on",
+    // 🧠 Типизация и импорты
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    // 👨‍💻 Шрифт и стиль
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
+    "editor.fontSize": 14,
+    // 🎯 ESLINT CONFIGURATION
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    // 🎯 LANGUAGE SPECIFIC      
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }

@@ -6,4 +6,5 @@ export type EnvConfig = {
     APPLICATION_SECRET: string;
     APPLICATION_URL: string;
     DOCS_PASSWORD: string | undefined;
+    OPENAI_API_KEY: string;
 };

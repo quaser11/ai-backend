@@ -16,13 +16,16 @@ const configureEnv = async (fastify: FastifyInstance) => {
             .prop("APPLICATION_URL", S.string())
             .prop("PORT", S.number())
             .prop("DOCS_PASSWORD", S.string())
-            .prop("HOST", S.string().default("0.0.0.0"))
+            .prop("HOST", S.string().default("0.0.0.0"
+            ))
+            .prop("OPENAI_API_KEY", S.string())
             .required([
                 "NODE_ENV",
                 "DATABASE_URL",
                 "APPLICATION_SECRET",
                 "APPLICATION_URL",
                 "PORT",
+                "OPENAI_API_KEY",
             ])
             .valueOf(),
         dotenv: false,

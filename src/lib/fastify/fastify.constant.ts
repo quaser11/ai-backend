@@ -6,4 +6,6 @@ export enum FastifyPlugin {
     Env = "env",
     Jwt = "jwt",
     Awilix = "awilix",
+    OpenAI = "openai",
+    Mocks = "mocks",
 }
